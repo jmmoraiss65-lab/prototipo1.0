@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Protótipo Sustentável - Feira de Ciências</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f0f7f4;
+      color: #2c3e50;
+    }
+    header {
+      background-color: #2e8b57; /* verde */
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-bottom: 3px solid #2e8b57;
+      padding-bottom: 0.3rem;
+      color: #276749;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .resultados img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+    .equipe {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .membro {
+      flex: 1 1 150px;
+      text-align: center;
+    }
+    .membro img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #2e8b57;
+    }
+    @media (max-width: 600px) {
+      .equipe {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Protótipo Sustentável contra o Uso Excessivo de Combustíveis Fósseis</h1>
+    <p>Projeto desenvolvido para a Feira de Ciências 2025</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      O uso excessivo de combustíveis fósseis é um dos principais causadores da poluição ambiental e do aquecimento global. Este projeto visa desenvolver uma solução inovadora em forma de protótipo para reduzir a dependência desses combustíveis, minimizando os impactos negativos ao meio ambiente.
+    </p>
+  </section>
+
+  <section id="metodologia">
+    <h2>Metodologia</h2>
+    <p>
+      Para criar o protótipo, realizamos pesquisas sobre fontes de energia renovável e técnicas de otimização de consumo. O desenvolvimento envolveu a construção de um modelo funcional utilizando materiais recicláveis e componentes eletrônicos para simular a conversão de energia limpa.
+    </p>
+  </section>
+
+  <section id="resultados" class="resultados">
+    <h2>Resultados</h2>
+    <p>
+      O protótipo apresentou uma redução estimada de 30% no consumo de energia comparado a sistemas tradicionais que usam combustíveis fósseis. A seguir, imagens do protótipo desenvolvido:
+    </p>
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Protótipo sustentável">
+  </section>
+
+  <section id="equipe">
+    <h2>Equipe</h2>
+    <div class="equipe">
+      <div class="membro">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto do integrante João Silva" />
+        <p>João Silva</p>
+      </div>
+      <div class="membro">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto da integrante Maria Oliveira" />
+        <p>Maria Oliveira</p>
+      </div>
+      <div class="membro">
+        <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="Foto do integrante Pedro Santos" />
+        <p>Pedro Santos</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
